@@ -30,7 +30,7 @@ public class personag extends Actor
             this.setLocation(this.getX() + speed, this.getY());
     }
     else if (Greenfoot.isKeyDown("f")){
-            getWorld().addObject(new newPoder(), getX() , getY() );
+            getWorld().addObject(new newPoder(), getX()-10 , getY()-100 );
     }
     }
     }
